@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script type="text/javascript">
+		function operation(){
+			console.log("events examples")
+		}
+		function loadingEffect(){
+			alert("from hover effect")
+		}
+		function demo(){
+			console.log ("from demo function")
+		}
+	</script>
+</head>
+<body>
+	<input onchange="demo()"/>
+	<button onclick="operation()">Submit</button>
+	<!-- <button onmouseover="operation()">Submit</button> -->
+	<p style="border: 1px solid red;width: 40%;"onmouseover="loadingEffect()">this is for hover effect</p>
+</body>
+</html>
